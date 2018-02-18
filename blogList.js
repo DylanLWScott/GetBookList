@@ -1,5 +1,5 @@
 var page = require('webpage').create();
-
+//console todo
 page.onConsoleMessage = function (msg) {
     console.log(msg);
 };
